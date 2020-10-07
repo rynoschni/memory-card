@@ -40,23 +40,3 @@
     transform: rotate(360deg);
   }
 }
-.gamebody{
-  display: flex;
-  justify-content: center;
-}
-.gamebox{
-  box-sizing: border-box;
-  max-width: 650px;
-  text-align: center;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-.row:after{
-  content: "";
-  display: table;
-  clear: both;
-}

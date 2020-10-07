@@ -11,33 +11,29 @@ function App() {
           Match Cards To Win
         </p>
       </header>
-      <div className="gamebody">
-        <div className='gamebox'>
-          <div className='row'>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-          </div>
-          <div className='row'>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-          </div>
-          <div className='row'>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-          </div>
-          <div className='row'>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-            <div className='column'><MemoryCard /></div>
-          </div>
-        </div>
+      <div className="row">
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
+      <div className="row">
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
+      <div className="row">
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
+      <div className="row">
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
       </div>
     </div>
   );
