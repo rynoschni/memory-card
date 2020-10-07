@@ -1,24 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MemoryCard from './components/MemoryCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1>Memory Game</h1>
+        <p className="subtitle">
+          Match Cards To Win
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="gamebody">
+        <div className='gamebox'>
+          <div className='row'>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+          </div>
+          <div className='row'>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+          </div>
+          <div className='row'>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+          </div>
+          <div className='row'>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+            <div className='column'><MemoryCard /></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
