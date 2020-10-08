@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './MemoryCard.css';
 
-class MemoryCard extends React.Component {
+class MemoryCard extends Component {
     constructor(props){
         super(props)
         this.state={isFlipped: false};
@@ -21,7 +21,7 @@ class MemoryCard extends React.Component {
                     <img src='https://www.digitalcrafts.com/img/digitalcrafts-logo-white-y.png' alt="DigitalCrafts Logo" />
                 </div>
                 <div className='MemoryCardFront'>
-                        ∆
+                        {this.props.symbol}
                 </div>
             </div>
         </div>
